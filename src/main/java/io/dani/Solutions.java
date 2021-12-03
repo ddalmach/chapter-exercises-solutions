@@ -13,6 +13,7 @@ public class Solutions {
             emptyMutableSetOfLists.add(emptyMutableList);
             return emptyMutableSetOfLists;
         }
+        //TODO no es necesario retornar null
         if(desiredChange < 0) {
             return null;
         }
